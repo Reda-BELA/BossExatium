@@ -1,0 +1,553 @@
+Unsupposrted library path: C:\Users\reda\Desktop\BossExatium\build\classes\java\api
+Unsupposrted library path: C:\Users\reda\Desktop\BossExatium\build\resources\api
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "reda/boss/exatium/Main.java" md5: 01b1828e01b28844c0c9731740448ce9
+@|reda/boss/exatium/Main.java|8|25|reda.boss.exatium|package|reda.boss.exatium|(file)
+Class Start: reda.boss.exatium.Main
+   @|reda/boss/exatium/Main.java|426|429|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|reda/boss/exatium/Main.java|430|435|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|reda/boss/exatium/Main.java|438|448|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/Main.java|449|454|MODID|field|reda.boss.exatium.utils.References|MODID
+   @|reda/boss/exatium/Main.java|455|459|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|reda/boss/exatium/Main.java|462|472|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/Main.java|473|477|NAME|field|reda.boss.exatium.utils.References|NAME
+   @|reda/boss/exatium/Main.java|478|485|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|reda/boss/exatium/Main.java|488|498|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/Main.java|499|506|VERSION|field|reda.boss.exatium.utils.References|VERSION
+   @|reda/boss/exatium/Main.java|522|526|Main|class|reda.boss.exatium.Main|false
+   @|reda/boss/exatium/Main.java|568|572|Main|class|reda.boss.exatium.Main|false
+   @|reda/boss/exatium/Main.java|536|548|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|reda/boss/exatium/Main.java|568|572|Main|class|reda.boss.exatium.Main|false
+   @|reda/boss/exatium/Main.java|573|581|instance|field|reda.boss.exatium.Main|instance|
+   @|reda/boss/exatium/Main.java|684|695|CommonProxy|class|reda.boss.exatium.proxy.CommonProxy|false
+   @|reda/boss/exatium/Main.java|591|601|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|reda/boss/exatium/Main.java|602|612|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|reda/boss/exatium/Main.java|615|625|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/Main.java|626|632|CLIENT|field|reda.boss.exatium.utils.References|CLIENT
+   @|reda/boss/exatium/Main.java|633|643|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|reda/boss/exatium/Main.java|646|656|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/Main.java|657|663|COMMON|field|reda.boss.exatium.utils.References|COMMON
+   @|reda/boss/exatium/Main.java|684|695|CommonProxy|class|reda.boss.exatium.proxy.CommonProxy|false
+   @|reda/boss/exatium/Main.java|696|701|proxy|field|reda.boss.exatium.Main|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|reda/boss/exatium/Main.java|786|791|event|param|reda.boss.exatium.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|reda/boss/exatium/Main.java|711|727|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|reda/boss/exatium/Main.java|752|759|preInit|method|reda.boss.exatium.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|reda/boss/exatium/Main.java|760|785|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|reda/boss/exatium/Main.java|886|891|event|param|reda.boss.exatium.Main|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|reda/boss/exatium/Main.java|817|833|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|reda/boss/exatium/Main.java|858|862|Init|method|reda.boss.exatium.Main|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|reda/boss/exatium/Main.java|863|885|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|reda/boss/exatium/Main.java|994|999|event|param|reda.boss.exatium.Main|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|reda/boss/exatium/Main.java|917|933|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|reda/boss/exatium/Main.java|958|966|PostInit|method|reda.boss.exatium.Main|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|reda/boss/exatium/Main.java|967|993|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : reda.boss.exatium.Main
+endProcessing "reda/boss/exatium/Main.java"
+
+startProcessing "reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java" md5: dcc1264a18caa81c0d978b090610c44d
+@|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|8|54|reda.boss.exatium.entity.living.exatium.videur|package|reda.boss.exatium.entity.living.exatium.videur|(file)
+Class Start: reda.boss.exatium.entity.living.exatium.videur.EntityVideur
+   @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|428|440|EntityVideur|class|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|false
+   @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|449|458|EntityMob|class|net.minecraft.entity.monster.EntityMob|false
+   Method Start: EntityVideur(Lnet/minecraft/world/World;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|494|501|worldIn|param|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|EntityVideur|(Lnet/minecraft/world/World;)V|worldIn|0
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|475|487|EntityVideur|method|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|EntityVideur|(Lnet/minecraft/world/World;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|488|493|World|class|net.minecraft.world.World|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|520|527|worldIn|param|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|EntityVideur|(Lnet/minecraft/world/World;)V|worldIn|0
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|544|551|setSize|method|net.minecraft.entity.Entity|setSize|(FF)V
+   Method End: EntityVideur(Lnet/minecraft/world/World;)V
+   Method Start: initEntityAI()V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|578|586|Override|class|java.lang.Override|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|607|619|initEntityAI|method|net.minecraft.entity.EntityLiving|initEntityAI|()V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|638|643|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|644|651|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|659|690|EntityAINearestAttackableTarget|class|net.minecraft.entity.ai.EntityAINearestAttackableTarget|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|697|711|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|747|752|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|753|760|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|768|784|EntityAISwimming|class|net.minecraft.entity.ai.EntityAISwimming|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|807|812|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|813|820|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|828|842|EntityAIWander|class|net.minecraft.entity.ai.EntityAIWander|false
+   Method End: initEntityAI()V
+   Method Start: applyEntityAttributes()V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|870|878|Override|class|java.lang.Override|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|899|920|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|940|961|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|979|997|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|998|1021|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1022|1032|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1034|1046|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1069|1087|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1088|1111|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1112|1126|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1128|1140|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1165|1183|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1184|1207|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1208|1221|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1223|1235|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1255|1273|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1274|1297|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1298|1310|FOLLOW_RANGE|field|net.minecraft.entity.SharedMonsterAttributes|FOLLOW_RANGE
+      @|reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java|1312|1324|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+   Method End: applyEntityAttributes()V
+Class End  : reda.boss.exatium.entity.living.exatium.videur.EntityVideur
+endProcessing "reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java"
+
+startProcessing "reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java" md5: d58dacc2f77e424495668ee8f7b485c7
+@|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|8|54|reda.boss.exatium.entity.living.exatium.videur|package|reda.boss.exatium.entity.living.exatium.videur|(file)
+Class Start: reda.boss.exatium.entity.living.exatium.videur.ModelVideur
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|384|392|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|393|397|Side|class|net.minecraftforge.fml.relauncher.Side|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|398|404|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|422|433|ModelVideur|class|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|442|451|ModelBase|class|net.minecraft.client.model.ModelBase|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|466|479|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|466|479|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|480|484|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|498|511|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|498|511|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|512|517|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|531|544|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|531|544|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|545|550|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|564|577|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|564|577|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|578|583|Tunic|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Tunic|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|597|610|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|597|610|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|611|615|Neck|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Neck|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|629|642|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|629|642|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|643|647|Mask|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Mask|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|661|674|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|661|674|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|675|679|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|693|706|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|693|706|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|707|716|TunicBody|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|TunicBody|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|730|743|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|730|743|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|744|748|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|762|775|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|762|775|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|776|785|RTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RTunicArm|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|799|812|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|799|812|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|813|818|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|832|845|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|832|845|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|846|850|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|864|877|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|864|877|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|878|887|LTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LTunicArm|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|901|914|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|901|914|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|915|919|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg|
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|933|946|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|933|946|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+   @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|947|951|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg|
+   Method Start: ModelVideur()V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|967|978|ModelVideur|method|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|ModelVideur|()V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|992|1004|textureWidth|field|net.minecraft.client.model.ModelBase|textureWidth
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1020|1033|textureHeight|field|net.minecraft.client.model.ModelBase|textureHeight
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1051|1055|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1062|1075|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1092|1096|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1097|1113|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1143|1147|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1148|1156|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1157|1160|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1165|1173|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1174|1178|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1242|1247|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1254|1267|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1284|1289|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1290|1306|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1337|1353|setRotationAngle|method|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1354|1359|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1399|1403|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1404|1412|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1413|1418|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1430|1435|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1436|1444|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1445|1448|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1453|1461|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1462|1467|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1532|1537|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1544|1557|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1574|1579|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1580|1596|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1626|1642|setRotationAngle|method|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1643|1648|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1685|1690|Beak1|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1691|1699|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1700|1705|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1717|1722|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1723|1731|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1732|1735|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1740|1748|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1749|1754|Beak2|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Beak2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1820|1825|Tunic|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Tunic
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1832|1845|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1862|1867|Tunic|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Tunic
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1868|1884|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1914|1918|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1919|1927|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1928|1933|Tunic|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Tunic
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1945|1950|Tunic|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Tunic
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1951|1959|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1960|1963|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1968|1976|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|1977|1982|Tunic|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Tunic
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2048|2052|Neck|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Neck
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2059|2072|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2089|2093|Neck|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Neck
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2094|2110|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2140|2144|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2145|2153|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2154|2158|Neck|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Neck
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2170|2174|Neck|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Neck
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2175|2183|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2184|2187|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2192|2200|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2201|2205|Neck|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Neck
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2268|2272|Mask|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Mask
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2279|2292|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2309|2313|Mask|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Mask
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2314|2330|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2361|2365|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2366|2374|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2375|2379|Mask|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Mask
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2391|2395|Mask|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Mask
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2396|2404|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2405|2408|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2413|2421|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2422|2426|Mask|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Mask
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2491|2495|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2502|2515|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2532|2536|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2537|2553|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2582|2586|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2587|2595|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2596|2599|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2604|2612|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2613|2617|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2684|2693|TunicBody|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|TunicBody
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2700|2713|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2730|2739|TunicBody|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|TunicBody
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2740|2756|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2786|2790|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2791|2799|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2800|2809|TunicBody|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|TunicBody
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2821|2830|TunicBody|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|TunicBody
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2831|2839|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2840|2843|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2848|2856|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2857|2866|TunicBody|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|TunicBody
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2932|2936|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2943|2956|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2973|2977|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|2978|2994|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3023|3027|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3028|3036|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3037|3040|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3045|3053|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3054|3058|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3124|3133|RTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3140|3153|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3170|3179|RTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3180|3196|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3226|3230|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3231|3239|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3240|3249|RTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3261|3270|RTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3271|3279|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3280|3283|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3288|3296|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3297|3306|RTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3371|3376|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3383|3396|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3413|3418|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3419|3435|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3465|3481|setRotationAngle|method|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3482|3487|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3520|3524|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3525|3533|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3534|3539|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3551|3556|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3557|3565|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3566|3569|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3574|3582|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3583|3588|Knife|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Knife
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3652|3656|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3663|3676|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3693|3697|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3698|3714|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3744|3748|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3749|3757|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3758|3761|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3766|3774|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3775|3779|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3845|3854|LTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3861|3874|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3891|3900|LTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3901|3917|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3948|3952|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3953|3961|addChild|method|net.minecraft.client.model.ModelRenderer|addChild|(Lnet/minecraft/client/model/ModelRenderer;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3962|3971|LTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3983|3992|LTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|3993|4001|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4002|4005|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4010|4018|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4019|4028|LTunicArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LTunicArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4092|4096|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4103|4116|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4133|4137|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4138|4154|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4184|4188|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4189|4197|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4198|4201|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4206|4214|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4215|4219|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4285|4289|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4296|4309|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4326|4330|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4331|4347|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4378|4382|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4383|4391|cubeList|field|net.minecraft.client.model.ModelRenderer|cubeList
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4392|4395|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4400|4408|ModelBox|class|net.minecraft.client.model.ModelBox|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4409|4413|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg
+   Method End: ModelVideur()V
+   Method Start: render(Lnet/minecraft/entity/Entity;FFFFFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4525|4531|entity|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|entity|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4539|4540|f|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4548|4550|f1|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f1|2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4558|4560|f2|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f2|3
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4568|4570|f3|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f3|4
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4578|4580|f4|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f4|5
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4588|4590|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4485|4493|Override|class|java.lang.Override|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4511|4517|render|method|net.minecraft.client.model.ModelBase|render|(Lnet/minecraft/entity/Entity;FFFFFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4518|4524|Entity|class|net.minecraft.entity.Entity|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4603|4607|Head|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Head
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4608|4614|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4615|4617|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4629|4633|Body|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|Body
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4634|4640|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4641|4643|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4655|4659|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4660|4666|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4667|4669|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4681|4685|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4686|4692|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4693|4695|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4707|4711|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4712|4718|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4719|4721|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4733|4737|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4738|4744|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4745|4747|f5|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|f5|6
+   Method End: render(Lnet/minecraft/entity/Entity;FFFFFF)V
+   Method Start: setRotationAngle(Lnet/minecraft/client/model/ModelRenderer;FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4808|4821|modelRenderer|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|modelRenderer|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4829|4830|x|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|x|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4838|4839|y|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|y|2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4847|4848|z|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|z|3
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4777|4793|setRotationAngle|method|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4794|4807|ModelRenderer|class|net.minecraft.client.model.ModelRenderer|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4861|4874|modelRenderer|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|modelRenderer|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4875|4887|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4890|4891|x|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|x|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4902|4915|modelRenderer|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|modelRenderer|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4916|4928|rotateAngleY|field|net.minecraft.client.model.ModelRenderer|rotateAngleY
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4931|4932|y|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|y|2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4943|4956|modelRenderer|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|modelRenderer|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4957|4969|rotateAngleZ|field|net.minecraft.client.model.ModelRenderer|rotateAngleZ
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4972|4973|z|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngle|(Lnet/minecraft/client/model/ModelRenderer;FFF)V|z|3
+   Method End: setRotationAngle(Lnet/minecraft/client/model/ModelRenderer;FFF)V
+   Method Start: setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5040|5049|limbSwing|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5057|5072|limbSwingAmount|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5080|5090|ageInTicks|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|ageInTicks|2
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5098|5108|netHeadYaw|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|netHeadYaw|3
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5116|5125|headPitch|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|headPitch|4
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5133|5144|scaleFactor|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|scaleFactor|5
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5153|5161|entityIn|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|entityIn|6
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|4990|4998|Override|class|java.lang.Override|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5016|5033|setRotationAngles|method|net.minecraft.client.model.ModelBase|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5146|5152|Entity|class|net.minecraft.entity.Entity|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5179|5183|LLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5184|5196|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5199|5209|MathHelper|class|net.minecraft.util.math.MathHelper|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5210|5213|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5214|5223|limbSwing|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5242|5257|limbSwingAmount|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5423|5427|RArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5428|5440|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5443|5453|MathHelper|class|net.minecraft.util.math.MathHelper|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5454|5457|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5458|5467|limbSwing|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5488|5492|Math|class|java.lang.Math|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5493|5495|PI|field|java.lang.Math|PI
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5499|5514|limbSwingAmount|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5530|5534|LArm|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|LArm
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5535|5547|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5550|5560|MathHelper|class|net.minecraft.util.math.MathHelper|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5561|5564|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5565|5574|limbSwing|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5588|5603|limbSwingAmount|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5619|5623|RLeg|field|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|RLeg
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5624|5636|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5639|5649|MathHelper|class|net.minecraft.util.math.MathHelper|false
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5650|5653|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5654|5663|limbSwing|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java|5681|5696|limbSwingAmount|param|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+   Method End: setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V
+Class End  : reda.boss.exatium.entity.living.exatium.videur.ModelVideur
+endProcessing "reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java"
+
+startProcessing "reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java" md5: b7a728b7d3d65ded3cbecf2a9b978687
+@|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|8|54|reda.boss.exatium.entity.living.exatium.videur|package|reda.boss.exatium.entity.living.exatium.videur|(file)
+Class Start: reda.boss.exatium.entity.living.exatium.videur.RenderVideur
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|370|378|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|379|383|Side|class|net.minecraftforge.fml.relauncher.Side|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|384|390|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|406|418|RenderVideur|class|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|427|439|RenderLiving|class|net.minecraft.client.renderer.entity.RenderLiving|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|440|452|EntityVideur|class|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|481|497|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|481|497|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|498|505|TEXTURE|field|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|TEXTURE|
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|512|528|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|529|539|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|540|545|MODID|field|reda.boss.exatium.utils.References|MODID
+   Method Start: RenderVideur(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|618|625|manager|param|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|RenderVideur|(Lnet/minecraft/client/renderer/entity/RenderManager;)V|manager|0
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|591|603|RenderVideur|method|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|RenderVideur|(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|604|617|RenderManager|class|net.minecraft.client.renderer.entity.RenderManager|false
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|644|651|manager|param|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|RenderVideur|(Lnet/minecraft/client/renderer/entity/RenderManager;)V|manager|0
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|657|668|ModelVideur|class|reda.boss.exatium.entity.living.exatium.videur.ModelVideur|false
+   Method End: RenderVideur(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+   Method Start: getEntityTexture(Lreda/boss/exatium/entity/living/exatium/videur/EntityVideur;)Lnet/minecraft/util/ResourceLocation;
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|765|771|entity|param|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|getEntityTexture|(Lreda/boss/exatium/entity/living/exatium/videur/EntityVideur;)Lnet/minecraft/util/ResourceLocation;|entity|0
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|694|702|Override|class|java.lang.Override|false
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|718|734|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|735|751|getEntityTexture|method|net.minecraft.client.renderer.entity.Render|getEntityTexture|(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|752|764|EntityVideur|class|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|false
+      @|reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java|791|798|TEXTURE|field|reda.boss.exatium.entity.living.exatium.videur.RenderVideur|TEXTURE
+   Method End: getEntityTexture(Lreda/boss/exatium/entity/living/exatium/videur/EntityVideur;)Lnet/minecraft/util/ResourceLocation;
+Class End  : reda.boss.exatium.entity.living.exatium.videur.RenderVideur
+endProcessing "reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java"
+
+startProcessing "reda/boss/exatium/init/EntityInit.java" md5: 9faf1028fdf158feea24c4d827d66800
+@|reda/boss/exatium/init/EntityInit.java|8|30|reda.boss.exatium.init|package|reda.boss.exatium.init|(file)
+Class Start: reda.boss.exatium.init.EntityInit
+   @|reda/boss/exatium/init/EntityInit.java|340|350|EntityInit|class|reda.boss.exatium.init.EntityInit|false
+   Method Start: registerEntities()V
+      @|reda/boss/exatium/init/EntityInit.java|379|395|registerEntities|method|reda.boss.exatium.init.EntityInit|registerEntities|()V
+      @|reda/boss/exatium/init/EntityInit.java|436|450|registerEntity|method|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V
+      @|reda/boss/exatium/init/EntityInit.java|461|473|EntityVideur|class|reda.boss.exatium.entity.living.exatium.videur.EntityVideur|false
+   Method End: registerEntities()V
+   Method Start: registerEntity(Ljava/lang/String;Ljava/lang/Class;IIII)V
+      @|reda/boss/exatium/init/EntityInit.java|570|574|name|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|name|0
+      @|reda/boss/exatium/init/EntityInit.java|600|606|entity|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|entity|1
+      @|reda/boss/exatium/init/EntityInit.java|612|614|id|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|id|2
+      @|reda/boss/exatium/init/EntityInit.java|620|625|range|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|range|3
+      @|reda/boss/exatium/init/EntityInit.java|631|637|color1|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|color1|4
+      @|reda/boss/exatium/init/EntityInit.java|643|649|color2|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|color2|5
+      @|reda/boss/exatium/init/EntityInit.java|548|562|registerEntity|method|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V
+      @|reda/boss/exatium/init/EntityInit.java|563|569|String|class|java.lang.String|false
+      @|reda/boss/exatium/init/EntityInit.java|576|581|Class|class|java.lang.Class|false
+      @|reda/boss/exatium/init/EntityInit.java|592|598|Entity|class|net.minecraft.entity.Entity|false
+      @|reda/boss/exatium/init/EntityInit.java|662|676|EntityRegistry|class|net.minecraftforge.fml.common.registry.EntityRegistry|false
+      @|reda/boss/exatium/init/EntityInit.java|677|694|registerModEntity|method|net.minecraftforge.fml.common.registry.EntityRegistry|registerModEntity|(Lnet/minecraft/util/ResourceLocation;Ljava/lang/Class;Ljava/lang/String;ILjava/lang/Object;IIZII)V
+      @|reda/boss/exatium/init/EntityInit.java|699|715|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|reda/boss/exatium/init/EntityInit.java|716|726|References|class|reda.boss.exatium.utils.References|false
+      @|reda/boss/exatium/init/EntityInit.java|727|732|MODID|field|reda.boss.exatium.utils.References|MODID
+      @|reda/boss/exatium/init/EntityInit.java|741|745|name|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|name|0
+      @|reda/boss/exatium/init/EntityInit.java|748|754|entity|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|entity|1
+      @|reda/boss/exatium/init/EntityInit.java|756|760|name|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|name|0
+      @|reda/boss/exatium/init/EntityInit.java|762|764|id|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|id|2
+      @|reda/boss/exatium/init/EntityInit.java|766|770|Main|class|reda.boss.exatium.Main|false
+      @|reda/boss/exatium/init/EntityInit.java|771|779|instance|field|reda.boss.exatium.Main|instance
+      @|reda/boss/exatium/init/EntityInit.java|781|786|range|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|range|3
+      @|reda/boss/exatium/init/EntityInit.java|797|803|color1|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|color1|4
+      @|reda/boss/exatium/init/EntityInit.java|805|811|color2|param|reda.boss.exatium.init.EntityInit|registerEntity|(Ljava/lang/String;Ljava/lang/Class;IIII)V|color2|5
+   Method End: registerEntity(Ljava/lang/String;Ljava/lang/Class;IIII)V
+   Method Start: registerNonMobEntity()V
+      @|reda/boss/exatium/init/EntityInit.java|848|868|registerNonMobEntity|method|reda.boss.exatium.init.EntityInit|registerNonMobEntity|()V
+   Method End: registerNonMobEntity()V
+Class End  : reda.boss.exatium.init.EntityInit
+endProcessing "reda/boss/exatium/init/EntityInit.java"
+
+startProcessing "reda/boss/exatium/proxy/ClientProxy.java" md5: 4129d7927370cc9cc5a7032bb5ead993
+@|reda/boss/exatium/proxy/ClientProxy.java|8|31|reda.boss.exatium.proxy|package|reda.boss.exatium.proxy|(file)
+Class Start: reda.boss.exatium.proxy.ClientProxy
+   @|reda/boss/exatium/proxy/ClientProxy.java|210|221|ClientProxy|class|reda.boss.exatium.proxy.ClientProxy|false
+   @|reda/boss/exatium/proxy/ClientProxy.java|230|241|CommonProxy|class|reda.boss.exatium.proxy.CommonProxy|false
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|reda/boss/exatium/proxy/ClientProxy.java|303|307|item|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|reda/boss/exatium/proxy/ClientProxy.java|313|317|meta|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|reda/boss/exatium/proxy/ClientProxy.java|326|328|id|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|reda/boss/exatium/proxy/ClientProxy.java|251|259|Override|class|java.lang.Override|false
+      @|reda/boss/exatium/proxy/ClientProxy.java|277|297|registerItemRenderer|method|reda.boss.exatium.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|reda/boss/exatium/proxy/ClientProxy.java|298|302|Item|class|net.minecraft.item.Item|false
+      @|reda/boss/exatium/proxy/ClientProxy.java|319|325|String|class|java.lang.String|false
+      @|reda/boss/exatium/proxy/ClientProxy.java|346|357|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|reda/boss/exatium/proxy/ClientProxy.java|358|388|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|reda/boss/exatium/proxy/ClientProxy.java|389|393|item|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|reda/boss/exatium/proxy/ClientProxy.java|394|398|meta|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|reda/boss/exatium/proxy/ClientProxy.java|404|425|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|reda/boss/exatium/proxy/ClientProxy.java|426|430|item|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|reda/boss/exatium/proxy/ClientProxy.java|431|446|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|reda/boss/exatium/proxy/ClientProxy.java|450|452|id|param|reda.boss.exatium.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : reda.boss.exatium.proxy.ClientProxy
+endProcessing "reda/boss/exatium/proxy/ClientProxy.java"
+
+startProcessing "reda/boss/exatium/proxy/CommonProxy.java" md5: 64711c8c559db91e8bdc0bb55b918ac9
+@|reda/boss/exatium/proxy/CommonProxy.java|8|31|reda.boss.exatium.proxy|package|reda.boss.exatium.proxy|(file)
+Class Start: reda.boss.exatium.proxy.CommonProxy
+   @|reda/boss/exatium/proxy/CommonProxy.java|84|95|CommonProxy|class|reda.boss.exatium.proxy.CommonProxy|false
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|reda/boss/exatium/proxy/CommonProxy.java|142|146|item|param|reda.boss.exatium.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|reda/boss/exatium/proxy/CommonProxy.java|152|156|meta|param|reda.boss.exatium.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|reda/boss/exatium/proxy/CommonProxy.java|165|167|id|param|reda.boss.exatium.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|reda/boss/exatium/proxy/CommonProxy.java|116|136|registerItemRenderer|method|reda.boss.exatium.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|reda/boss/exatium/proxy/CommonProxy.java|137|141|Item|class|net.minecraft.item.Item|false
+      @|reda/boss/exatium/proxy/CommonProxy.java|158|164|String|class|java.lang.String|false
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : reda.boss.exatium.proxy.CommonProxy
+endProcessing "reda/boss/exatium/proxy/CommonProxy.java"
+
+startProcessing "reda/boss/exatium/utils/References.java" md5: 3174308a38368fd4b1b11407c6085d8f
+@|reda/boss/exatium/utils/References.java|8|31|reda.boss.exatium.utils|package|reda.boss.exatium.utils|(file)
+Class Start: reda.boss.exatium.utils.References
+   @|reda/boss/exatium/utils/References.java|49|59|References|class|reda.boss.exatium.utils.References|false
+   @|reda/boss/exatium/utils/References.java|88|94|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|88|94|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|95|100|MODID|field|reda.boss.exatium.utils.References|MODID|
+   @|reda/boss/exatium/utils/References.java|143|149|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|143|149|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|150|154|NAME|field|reda.boss.exatium.utils.References|NAME|
+   @|reda/boss/exatium/utils/References.java|197|203|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|197|203|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|204|211|VERSION|field|reda.boss.exatium.utils.References|VERSION|
+   @|reda/boss/exatium/utils/References.java|246|252|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|246|252|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|253|259|CLIENT|field|reda.boss.exatium.utils.References|CLIENT|
+   @|reda/boss/exatium/utils/References.java|322|328|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|322|328|String|class|java.lang.String|false
+   @|reda/boss/exatium/utils/References.java|329|335|COMMON|field|reda.boss.exatium.utils.References|COMMON|
+Class End  : reda.boss.exatium.utils.References
+endProcessing "reda/boss/exatium/utils/References.java"
+

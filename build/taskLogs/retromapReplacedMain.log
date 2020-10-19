@@ -1,0 +1,152 @@
+Processing 8 files
+Start Processing: reda/boss/exatium/Main.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: reda.boss.exatium.proxy.CommonProxy
+Import: reda.boss.exatium.utils.References
+End  Processing: reda/boss/exatium/Main.java
+
+Start Processing: reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java
+FOUND CONSTR method reda/boss/exatium/entity/living/exatium/videur/EntityVideur/EntityVideur (Lnet/minecraft/world/World;)V reda/boss/exatium/entity/living/exatium/videur/EntityVideur
+Rename method net/minecraft/entity/Entity/setSize (FF)V[544,551]::setSize->func_70105_a
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[612,624]::initEntityAI->func_184651_r
+Rename field net/minecraft/entity/EntityLiving/tasks[644,649]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[659,666]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[767,772]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[782,789]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[841,846]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[856,863]::addTask->func_75776_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[947,968]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[981,1002]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[1013,1031]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[1051,1061]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[1067,1079]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[1103,1121]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[1141,1155]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[1157,1169]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[1195,1213]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[1233,1246]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[1249,1261]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[1282,1300]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/FOLLOW_RANGE[1320,1332]::FOLLOW_RANGE->field_111265_b
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[1336,1348]::setBaseValue->func_111128_a
+Import: net.minecraft.entity.SharedMonsterAttributes
+Import: net.minecraft.entity.ai.EntityAINearestAttackableTarget
+Import: net.minecraft.entity.ai.EntityAISwimming
+Import: net.minecraft.entity.ai.EntityAIWander
+Import: net.minecraft.entity.monster.EntityMob
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.world.World
+End  Processing: reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java
+
+Start Processing: reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java
+FOUND CONSTR method reda/boss/exatium/entity/living/exatium/videur/ModelVideur/ModelVideur ()V reda/boss/exatium/entity/living/exatium/videur/ModelVideur
+Rename field net/minecraft/client/model/ModelBase/textureWidth[992,1004]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[1021,1034]::textureHeight->field_78089_u
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[1098,1114]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[1145,1153]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[1292,1308]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[1402,1410]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[1438,1446]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[1587,1603]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[1694,1702]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[1730,1738]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[1880,1896]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[1927,1935]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[1963,1971]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[2111,2127]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[2158,2166]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[2192,2200]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[2336,2352]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[2384,2392]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[2418,2426]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[2564,2580]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[2610,2618]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[2768,2784]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[2815,2823]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[2859,2867]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[3011,3027]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[3057,3065]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[3214,3230]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[3261,3269]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[3305,3313]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[3458,3474]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[3560,3568]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[3596,3604]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[3742,3758]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[3789,3797]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[3946,3962]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[3994,4002]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[4038,4046]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[4188,4204]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[4235,4243]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[4382,4398]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[4430,4438]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[4563,4569]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[4666,4672]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[4698,4704]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[4730,4736]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[4762,4768]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[4794,4800]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[4826,4832]::render->func_78785_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[4969,4981]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[5011,5023]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[5053,5065]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[5113,5130]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[5276,5288]::rotateAngleX->field_78795_f
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5303,5306]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[5530,5542]::rotateAngleX->field_78795_f
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5557,5560]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[5647,5659]::rotateAngleX->field_78795_f
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5674,5677]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[5746,5758]::rotateAngleX->field_78795_f
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5773,5776]::cos->func_76134_b
+Import: net.minecraft.client.model.ModelBase
+Import: net.minecraft.client.model.ModelBox
+Import: net.minecraft.client.model.ModelRenderer
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.util.math.MathHelper
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+End  Processing: reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java
+
+Start Processing: reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java
+FOUND CONSTR method reda/boss/exatium/entity/living/exatium/videur/RenderVideur/RenderVideur (Lnet/minecraft/client/renderer/entity/RenderManager;)V reda/boss/exatium/entity/living/exatium/videur/RenderVideur
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[735,751]::getEntityTexture->func_110775_a
+Import: net.minecraft.client.renderer.entity.RenderLiving
+Import: net.minecraft.client.renderer.entity.RenderManager
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: reda.boss.exatium.utils.References
+End  Processing: reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java
+
+Start Processing: reda/boss/exatium/init/EntityInit.java
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraftforge.fml.common.registry.EntityRegistry
+Import: reda.boss.exatium.Main
+Import: reda.boss.exatium.entity.living.exatium.videur.EntityVideur
+Import: reda.boss.exatium.utils.References
+End  Processing: reda/boss/exatium/init/EntityInit.java
+
+Start Processing: reda/boss/exatium/proxy/ClientProxy.java
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.item.Item
+Import: net.minecraftforge.client.model.ModelLoader
+End  Processing: reda/boss/exatium/proxy/ClientProxy.java
+
+Start Processing: reda/boss/exatium/proxy/CommonProxy.java
+Import: net.minecraft.item.Item
+End  Processing: reda/boss/exatium/proxy/CommonProxy.java
+
+Start Processing: reda/boss/exatium/utils/References.java
+End  Processing: reda/boss/exatium/utils/References.java
+

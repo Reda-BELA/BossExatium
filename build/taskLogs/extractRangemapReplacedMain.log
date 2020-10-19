@@ -1,0 +1,28 @@
+Unsupposrted library path: C:\Users\reda\Desktop\BossExatium\build\classes\java\api
+Unsupposrted library path: C:\Users\reda\Desktop\BossExatium\build\resources\api
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "reda/boss/exatium/Main.java" md5: 01b1828e01b28844c0c9731740448ce9
+endProcessing "reda/boss/exatium/Main.java"
+
+startProcessing "reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java" md5: dcc1264a18caa81c0d978b090610c44d
+endProcessing "reda/boss/exatium/entity/living/exatium/videur/EntityVideur.java"
+
+startProcessing "reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java" md5: d58dacc2f77e424495668ee8f7b485c7
+endProcessing "reda/boss/exatium/entity/living/exatium/videur/ModelVideur.java"
+
+startProcessing "reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java" md5: b7a728b7d3d65ded3cbecf2a9b978687
+endProcessing "reda/boss/exatium/entity/living/exatium/videur/RenderVideur.java"
+
+startProcessing "reda/boss/exatium/init/EntityInit.java" md5: 9faf1028fdf158feea24c4d827d66800
+endProcessing "reda/boss/exatium/init/EntityInit.java"
+
+startProcessing "reda/boss/exatium/proxy/ClientProxy.java" md5: 4129d7927370cc9cc5a7032bb5ead993
+endProcessing "reda/boss/exatium/proxy/ClientProxy.java"
+
+startProcessing "reda/boss/exatium/proxy/CommonProxy.java" md5: 64711c8c559db91e8bdc0bb55b918ac9
+endProcessing "reda/boss/exatium/proxy/CommonProxy.java"
+
+startProcessing "reda/boss/exatium/utils/References.java" md5: 3174308a38368fd4b1b11407c6085d8f
+endProcessing "reda/boss/exatium/utils/References.java"
+

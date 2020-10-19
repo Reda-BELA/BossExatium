@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bossexatium",
+  "name": "BossExatium",
+  "description": "Je brule des bébés dans des églises.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["RedaLeBg"],
+  "credits": "Moi Reda Ptdr",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
